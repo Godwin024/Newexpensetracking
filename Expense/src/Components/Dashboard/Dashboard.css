@@ -1,0 +1,575 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.Dashboardcon{
+    width: 100%;
+    height: 100vh;
+
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: Dashboardcon 20s infinite;
+}
+
+@keyframes Dashboardcon {
+    /* 0%{ background-color: lightcoral;
+
+    } */
+
+  25%{
+    background-color: orchid;
+  }  
+
+  50%{background-color: lightblue;
+
+  }
+
+  75%{
+    background-color: lightsalmon;
+  }
+    
+}
+
+
+
+
+.MainDashboardCon{
+    width: 95%;
+    height: 95%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    border-radius: 13px;
+    /* justify-content: center; */
+    justify-content: space-between;
+}
+
+.LeftDashboardCon{
+    width: 25%;
+    height: 100%;
+    background-color: whitesmoke;
+    border-radius: 13px;
+    /* border: solid white 1px; */
+    /* box-shadow: 12px 12px 2px 2px rgba(0, 0, 255, .2); */
+    
+}
+
+.leftimage{
+    width: 100%;
+    height: 20%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: lightslategray;
+    cursor: pointer;
+    padding-top: 5px;
+}
+
+.leftimage p{
+    font-size: small;
+}
+
+.MainprofileHead{
+    width: 100%;
+    height: 50%;
+    /* background-color: blueviolet; */
+    color: lightslategray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ProfileCircleme{
+    width: 20%;
+    height: 100%;
+    background-color: lightgrey;
+    border-radius: 100%;
+}
+
+
+
+.space1{
+    width: 100%;
+    height: 15%;
+    /* background-color: beige; */
+}
+.templates{
+    width: 100%;
+    height: 45%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    padding-left: 20px;
+    color: lightslategray;
+}
+.dashboard{
+    width: 100%;
+    height: 5%;
+    /* background-color: blue; */
+    color: lightslategray;
+    gap: 10px;
+    display: flex;
+    cursor: pointer;
+}
+/* .dashboard:hover{
+   background-color: #3a7bd5;
+   color: white;
+} */
+.cards{
+    width: 100%;
+    height: 5%;
+    /* background-color: blue; */
+    color: lightslategray;
+    gap: 10px;
+    display: flex;
+    cursor: pointer;
+}
+.data{
+    width: 100%;
+    height: 5%;
+    /* background-color: blue; */
+    color: lightslategray;
+    gap: 10px;
+    display: flex;
+    cursor: pointer;
+}
+.bankservices{
+    width: 100%;
+    height: 5%;
+    /* background-color: blue; */
+    color: lightslategray;
+    gap: 10px;
+    display: flex;
+    cursor: pointer;
+
+}
+.messages{
+    width: 100%;
+    height: 5%;
+    /* background-color: blue; */
+    color: lightslategray;
+    gap: 10px;
+    display: flex;
+    cursor: pointer;
+
+}
+.settings{
+    width: 100%;
+    height: 5%;
+    /* background-color: blue; */
+    color: lightslategray;
+    gap: 10px;
+    display: flex;
+    cursor: pointer;
+
+}
+.space29{
+    width: 100%;
+    height: 23%;
+    /* background-color: blue; */
+}
+.logoutspace{
+    width: 100%;
+    height: 10%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+
+    
+}
+.logout{
+    width: 100%;
+    height: 5%;
+    /* background-color: blue; */
+    color: lightslategray;
+    gap: 10px;
+    display: flex;
+    cursor: pointer;
+}
+
+.RightDashboardCon{
+    width: 73%;
+    height: 100%;
+    background-color: whitesmoke;
+    border-radius: 13px;
+    display: flex;
+    border: solid white 1px;
+    align-items: center;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+.Headerboard{
+    width: 100%;
+    height: 10%;
+    background-color:white;
+    border-radius: 13px;
+    display: flex;
+    align-items: center;
+    box-shadow: 1px 1px 1px 1px lightcyan;
+    justify-content: space-between;
+
+}
+
+.Themename{
+    width: 20%;
+    height: 80%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+}
+
+.Themename img{
+    width: 30%;
+    height: 100%;
+}
+.Themename h4{
+    color: lightslategray;
+    font-style: italic;
+   
+}
+
+.Getstarted{
+    width: 40%;
+    height: 100%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: lightslategray;
+}
+
+.GetStartedBox{
+    width: 40%;
+    height: 50%;
+    /* background-color: lightblue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+}
+
+.spacing1{
+    width: 100%;
+    height: 10px;
+    /* background-color: blue; */
+}
+
+.TotalExpens{
+    width: 100%;
+    height: 90px;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Totalexpenses{
+    width: 98%;
+    height: 60%;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid white 4px;
+}
+
+.TextTotalexpen{
+    width: 35%;
+    height: 100%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: lightslategray;
+}
+
+.TextTotalexpen h4{
+    color: orangered;
+}
+
+.Requreditem{
+    width: 100%;
+    height: 450px;
+    /* background-color: blue; */
+    display: flex;
+}
+
+.Leftsidereq{
+    width: 30%;
+    height: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Reqireditem122{
+    width: 100%;
+    height: 40px;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.itemrequired{
+    width: 95%;
+    height: 100%;
+    /* background-color: blueviolet; */
+    display: flex;
+    align-items: center;
+}
+
+.itemrequired p{
+    color: red;
+    font-style: italic;
+}
+
+.TheExpensetitle1{
+    width: 100%;
+    height: 198px;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Allinputmethod{
+    width: 95%;
+    height: 80%;
+    /* background-color: blueviolet; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    /* justify-content: space-between; */
+}
+
+.Expensetitle{
+    width: 100%;
+    height: 18%;
+    /* background-color: green; */
+}
+
+.Expensetitle input{
+    width: 100%;
+    height: 100%;
+    border: solid white 1px;
+    border-radius: 5px;
+}
+
+.Category{
+    width: 100%;
+    height: 30px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.Category select{
+    width: 70%;
+    height: 100%;
+    border-radius: 5px;
+    border: solid white 1px;
+}
+
+.addarrefrence{
+    width: 100%;
+    height: 100px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Addref{
+    width: 95%;
+    height: 95%;
+}
+
+.Addref input{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    border: solid white 1px;
+}
+
+.addexpensesenow{
+    width: 100%;
+    height: 70px;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ADDEXPENSESE{
+    width: 80%;
+    height: 80%;
+    background-color: orangered;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ADDEXPENSESE{
+    font-size: medium;
+    font-weight: 100;
+    color: white;
+
+}
+
+.Rightsidereq{
+    width: 70%;
+    height: 100%;
+    /* background-color: darkred; */
+}
+
+.Linewidthexp{
+    width: 100%;
+    height: 70px;
+    /* background-color: blueviolet; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Firstline{
+    width: 95%;
+    height: 95%;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    /* justify-content: space-between; */
+  
+}
+
+.purshased{
+    width: 50%;
+    height: 100%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: lightslategray;
+    
+
+}
+
+.MYbag{
+    width: 30%;
+    height: 80%;
+    color: lightslategray;
+}
+
+.Buying{
+    width: 50%;
+    height: 100%;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    /* flex-direction: column; */
+}
+
+.deltethem{
+    width: 20%;
+    height: 100%;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: lightslategray;
+}
+
+.deletthemnow{
+   width: 20%;
+   height: 80%;
+}
+
+.seconline{
+    width: 100%;
+    height: 70px;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* justify-content: space-between; */
+}
+
+.themainsec{
+    width: 95%;
+    height: 95%;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.halfespace{
+    width: 50%;
+    height: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    color: lightslategray;
+    
+
+}
+
+.worldspcs{
+    width: 30%;
+    height: 80%;
+    color: lightslategray;
+}
+
+.Spending{
+    width: 50%;
+    height: 100%;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: lightslategray;
+}
+
+.deltethem2{
+    width: 20%;
+    height: 100%;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: lightslategray;
+    
+
+}
+
+.deletthemnow2{
+    width: 20%;
+    height: 80%;
+    
+
+
+}

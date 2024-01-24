@@ -1,0 +1,319 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Loginpagecon{
+    width: 100%;
+    height: 100vh;
+    /* background-color: red; */
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+.leftLoginpage{
+    width: 50%;
+    height: 100%;
+    /* background-color: whitesmoke; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.financeprofile{
+    width: 100%;
+    height: 8%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    display: flex;
+    color: lightslategray;
+    font-size: large;font-weight: 300;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.financeprofilecircle{
+    width: 6%;
+    height: 75%;
+    /* background-color: rgba(211, 211, 211, 0.395); */
+    border-radius: 100%;
+    padding-left: 10px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.8;
+    color: lightslategray;
+}
+
+
+
+.financeprofilecircle img{
+    width: 100%;
+    height: 100%;
+    border-radius: 80%;
+}
+
+.Yourfinancein{
+    width: 100%;
+    height: 25%;
+    /* background-color: brown; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.Financeyourown{
+    width: 40%;
+    height: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: lightslategray;
+    /* margin-top: 20px; */
+    padding-top: 40px;
+
+}
+
+.Financeyourown h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+    font-size: 400;
+}
+
+.Middlefinanceown{
+    width: 100%;
+    height: 35%;
+    /* background-color: blueviolet; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Middlefinanceown img{
+    width: 90%;
+    height: 100%;
+
+}
+
+.lastfinanceown{
+    width: 100%;
+    height: 30%;
+    /* background-color: darkorange; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    
+}
+
+.lastfinancetext{
+    width: 60%;
+    height: 100%;
+    /* background-color: darkgreen; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: lightslategray;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    gap: 8px;
+    padding-top: 10px;
+}
+
+.financetexts{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.financetexts h5{
+    /* text-underline-position: below; */
+    text-decoration: underline;
+}
+
+.rightLoginpage{
+    width: 50%;
+    height: 100%;
+    /* background-color: whitesmoke; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.LoginmainCon{
+    width: 60%;
+    height: 70%;
+    background-color: white;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid white 1px;
+    /* margin-top: 90px; */
+    box-shadow: 1px 2px 1px 1px rgb(159, 168, 172);
+
+}
+
+.Loginwrapp{
+    width: 80%;
+    height: 85%;
+    /* background-color: lightgray; */
+    gap: 50px;
+    /* display: flex; */
+    /* justify-content: space-evenly; */
+}
+
+.CurvePaylogo{
+    width: 100%;
+    height: 20%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    color: lightslategray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.CurvePaylogo img{
+    width: 20%;
+    height: 100%;
+}
+
+/* .Bankhouse{
+    width: 20%;
+    height: 100%;
+} */
+
+.Logotext{
+    width: 100%;
+    height: 30px;
+    /* background-color: blueviolet; */
+    display: flex;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 10px;
+    color: lightslategray;
+    gap: 5px;
+
+}
+
+.Loginemail{
+    width:100%;
+    height: 70px;
+    margin-top: 15px;
+    /* background-color: blue; */
+    /* gap: 51px; */
+    /* display: flex; */
+    /* align-items: center; */
+    /* flex-direction: column; */
+}
+
+.Loginemail p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: lightslategray;
+}
+
+.Loginemail input{
+    width: 100%;
+    height: 60%;
+    margin-top: 5px;
+    border-radius: 3px;
+    border: solid lightslategray 1px;;
+    color: lightslategray;
+
+}
+
+.Loginpassword{
+    width: 100%;
+    height: 70px;
+    margin-top: 15px;
+    /* background-color: blue; */
+}
+
+.Loginpassword p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: lightslategray;
+}
+
+.Loginpassword input{
+    width: 100%;
+    height: 60%;
+    border-radius: 3px;
+    border: solid lightslategray 1px;
+    margin-top: 5px;
+    color: lightslategray;
+
+
+}
+
+
+
+.LOginbtn{
+    width: 100%;
+    height: 70px;
+    /* background-color: aqua; */
+    margin-top: 15px;
+    gap: 10px;
+}
+
+.LOginbtn button{
+    width: 100%;
+    height: 60%;
+    background-color: lightslategray;
+    border: solid lightblue 1px;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+
+
+}
+
+.space042{
+    width: 100%;
+    height: 10px;
+}
+
+.Donthvaccount{
+    width: 100%;
+    height: 20px;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    /* color: lightslategray; */
+
+}
+
+.Donthvacces{
+    width: 100%;
+    height: 100%;
+    /* background-color: lightslategray; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: lightslategray;
+}
+
+.Donthvacces p{
+    color: lightslategray;
+}
+
+.Donthvacces span{
+    font-size: small;
+    /* font-weight: 10; */
+    /* color: blue; */
+    cursor: pointer;
+    
+}
+
+.Donthvacces span:hover{
+    color: lightblue;
+}

@@ -1,0 +1,474 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.Dashboardcon1{
+    width: 100%;
+    height: 100vh;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.MainDashboardCon1{
+    width: 95%;
+    height: 95%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    border-radius: 13px;
+    /* justify-content: center; */
+    justify-content: center;
+}
+
+.LeftDashboardCon{
+    width: 25%;
+    height: 100%;
+    background-color: whitesmoke;
+    border-radius: 13px;
+    /* border: solid white 1px; */
+    /* box-shadow: 12px 12px 2px 2px rgba(0, 0, 255, .2); */
+    
+}
+
+.leftimage{
+    width: 100%;
+    height: 20%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: lightslategray;
+    cursor: pointer;
+    padding-top: 5px;
+}
+
+.leftimage p{
+    font-size: small;
+}
+
+.MainprofileHead{
+    width: 100%;
+    height: 50%;
+    /* background-color: blueviolet; */
+    color: lightslategray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.RightDashboardCon12{
+    width: 73%;
+    height: 100%;
+    background-color: whitesmoke;
+    border-radius: 13px;
+    display: flex;
+    border: solid white 1px;
+    align-items: center;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+.Headerboard1{
+    width: 100%;
+    height: 10%;
+    background-color:white;
+    border-radius: 13px;
+    display: flex;
+    align-items: center;
+    box-shadow: 1px 1px 1px 1px lightcyan;
+    justify-content: space-between;
+
+}
+
+.Themename{
+    width: 20%;
+    height: 80%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+}
+
+.Themename img{
+    width: 30%;
+    height: 100%;
+}
+
+.Getstarted{
+    width: 40%;
+    height: 100%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.GetStartedBox{
+    width: 40%;
+    height: 50%;
+    /* background-color: lightblue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.spacing1{
+    width: 100%;
+    height: 10px;
+    /* background-color: blue; */
+}
+
+.TotalExpens1{
+    width: 100%;
+    height: 90px;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: lightslategray;
+}
+
+.Totalexpenses2{
+    width: 98%;
+    height: 60%;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid white 4px;
+}
+
+.TextTotalexpen1{
+    width: 35%;
+    height: 100%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: lightslategray;
+}
+
+.TextTotalexpen1 h4{
+    color: orangered;
+}
+
+.Requreditem1{
+    width: 100%;
+    height: 450px;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Totallingexpens{
+    width: 100%;
+    height: 80px;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    /* padding-right: 150px; */
+    margin-left: 25px;
+    color: lightslategray;
+}
+
+
+.myTotalexpens{
+    width: 20%;
+    height: 90%;
+    background-color: white;
+    display: flex;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    
+}
+.spaced5{
+    width: 100%;
+    height: 10px;
+    /* background-color: blue; */
+}
+
+
+.Borderline{
+    width: 80%;
+    height: 90%;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    border: solid lightslategray 3px;
+    overflow-y: scroll;
+}
+
+.Leftsidereq{
+    width: 30%;
+    height: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Reqireditem122{
+    width: 100%;
+    height: 40px;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.itemrequired{
+    width: 95%;
+    height: 100%;
+    /* background-color: blueviolet; */
+    display: flex;
+    align-items: center;
+}
+
+.itemrequired p{
+    color: red;
+    font-style: italic;
+}
+
+.TheExpensetitle1{
+    width: 100%;
+    height: 198px;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Allinputmethod{
+    width: 95%;
+    height: 80%;
+    /* background-color: blueviolet; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    /* justify-content: space-between; */
+}
+
+.Expensetitle{
+    width: 100%;
+    height: 18%;
+    /* background-color: green; */
+}
+
+.Expensetitle input{
+    width: 100%;
+    height: 100%;
+    border: solid white 1px;
+    border-radius: 5px;
+}
+
+.Category{
+    width: 100%;
+    height: 30px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.Category input{
+    width: 50%;
+    height: 100%;
+    border-radius: 5px;
+    border: solid white 1px;
+}
+
+.addarrefrence{
+    width: 100%;
+    height: 100px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Addref{
+    width: 95%;
+    height: 95%;
+}
+
+.Addref input{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    border: solid white 1px;
+}
+
+.addexpensesenow{
+    width: 100%;
+    height: 70px;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ADDEXPENSESE{
+    width: 80%;
+    height: 80%;
+    background-color: orangered;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ADDEXPENSESE{
+    font-size: medium;
+    font-weight: 100;
+    color: white;
+
+}
+
+.Rightsidereq{
+    width: 70%;
+    height: 100%;
+    /* background-color: darkred; */
+}
+
+.Linewidthexp{
+    width: 100%;
+    height: 70px;
+    /* background-color: blueviolet; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Firstline{
+    width: 95%;
+    height: 95%;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    /* justify-content: space-between; */
+  
+}
+
+.purshased{
+    width: 50%;
+    height: 100%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+
+.MYbag{
+    width: 30%;
+    height: 80%;
+}
+
+.Buying{
+    width: 50%;
+    height: 100%;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    /* flex-direction: column; */
+}
+
+.deltethem{
+    width: 20%;
+    height: 100%;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.deletthemnow{
+   width: 20%;
+   height: 80%;
+}
+
+.seconline{
+    width: 100%;
+    height: 70px;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* justify-content: space-between; */
+}
+
+.themainsec{
+    width: 95%;
+    height: 95%;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.halfespace{
+    width: 50%;
+    height: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+.worldspcs{
+    width: 30%;
+    height: 80%;
+}
+
+.Spending{
+    width: 50%;
+    height: 100%;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.deltethem2{
+    width: 20%;
+    height: 100%;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.deletthemnow2{
+    width: 20%;
+    height: 80%;
+    
+
+
+}
